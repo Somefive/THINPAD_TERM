@@ -1,0 +1,3 @@
+LI R1 0x03
+LI R2 0x04
+JR R7
