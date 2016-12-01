@@ -32,7 +32,7 @@ while True:
         for i in range(0, 6):
             print("Reg"+str(i)+":", end='')
             reg = t.read(2)
-            print(str(binascii.hexlify(reg))[2:-1])
+            print(bin2hexstr_16bit(reg))
     elif op is "D":
         if ops.__len__() > 2:
             addr = padstr(ops[1], 4)
